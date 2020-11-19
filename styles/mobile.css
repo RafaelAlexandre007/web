@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+
+  .page{
+    display: block;
+  }
+  
+  #logo {
+    width: 3em;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .nav-mobile a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    transition: background 3s;
+  }
+
+  .fas {
+    color: white;
+    font-size: 20px;
+  }
+
+  .btn i {
+    position: relative;
+    margin: 10px;
+  }
+
+
+}

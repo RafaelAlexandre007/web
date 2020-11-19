@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(320deg, #050505 30%, #5a6161 100%) no-repeat;
+}
+
+body,
+input,
+button,
+textarea {
+  /*
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1;
+    */
+  font: 400 1.2rem/1 "Nunito", sans-serif; /* rem = root element*/
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 5px;
+  position: relative;
+  top: 20vh;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  z-index: 1000;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  transition: background 3s;
+}
+
+.nav a:hover {
+  background: chocolate;
+}
+
+#logo {
+  width: 5em;
+}
+
+.container {
+  display:relative;
+  bottom: 100vh;
+  max-height: 100vh;
+
+}
+
+section {
+  color: white;
+
+  margin-top: 1rem;
+}
+.div-section {
+  color: white;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  background: linear-gradient(0deg, #0a0a0a 95%, #5a6161 100%) no-repeat;
+  height: 200px;
+  padding: 10px;
+  color: white;
+}
+
+footer .social{
+  display: block;
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  width: 200px;
+  padding: 10x;
+
+}
+
+.social .fab{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+
